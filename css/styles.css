@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400,300,600);
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  font-family: "open sans", helvetica, arial, sans;
+}
+body {
+  background: url(https://images.unsplash.com/photo-1617600433693-eef3435282a9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1331&q=80)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: aliceblue;
+  padding: 10px 80px 10px 80px;
+}
+input {
+  outline: none;
+  border: none;
+  padding: 5px;
+  margin: 5px 0 5px 0;
+  background-color: aliceblue;
+}
+.student-details select,
+.student-details select:focus {
+  outline: none;
+  border: none;
+  padding: 5px 2px 5px 2px;
+  margin: 5px 0 5px 0;
+  background-color: aliceblue;
+}
+.student-details #year {
+  margin-left: 80px;
+}
+.student-details #sem {
+  margin-left: 119px;
+}
+.student-details #date {
+  margin-left: 60px;
+}
+.student-details #branch {
+  margin-left: 136px;
+}
+.student-details #section {
+  margin-left: 135px;
+}
+.student-details #subject {
+  margin-left: 135px;
+}
+.student-feedback label {
+  padding-right: 45px;
+}
+.student-feedback input[type="radio"] {
+  margin: 0 2px 0 2px;
+}
+.student-feedback textarea {
+  width: 500px;
+  height: 100px;
+  outline: none;
+  border: none;
+  padding: 8px;
+  margin: 5px 0 5px 0;
+  background-color: aliceblue;
+}
+.submit-form {
+  padding-top: 20px;
+}
+.submit-form #submit {
+  font-size: medium;
+  font-weight: bold;
+  width: 100px;
+}
+.admin-login {
+  position: absolute;
+  right: 80px;
+  padding-top: 20px;
+}
+.admin-login #admin {
+  font-size: medium;
+  font-weight: bold;
+  width: 100px;
+}
+.copyright-text {
+  font-size: 14px;
+}
