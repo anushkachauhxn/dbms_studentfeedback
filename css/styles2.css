@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400,300,600);
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  font-family: "open sans", helvetica, arial, sans;
+}
+
+body {
+  background-color: gray;
+  padding: 20px;
+}
+
+.logout {
+  margin: 0 0 15px auto;
+}
+.logout input {
+  outline: none;
+  border: none;
+  padding: 8px;
+  background-color: #15191a;
+  color: white;
+  font-size: medium;
+  width: 85px;
+}
+
+#students-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+#students-table td {
+  text-align: center;
+  border: 1px solid #15191a;
+  padding: 8px;
+}
+#students-table th {
+  text-align: center;
+  padding: 12px 8px 12px 8px;
+  background-color: #15191a;
+  color: white;
+}
+#students-table tr {
+  background-color: aliceblue;
+}
+#students-table tr:hover {
+  background-color: gray;
+}
